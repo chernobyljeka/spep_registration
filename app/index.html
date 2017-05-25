@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Главная</title>
+	<link rel="stylesheet" href="/css/libs.min.css" media="screen" title="no title">
+	<link rel="stylesheet" href="/css/main.css" media="screen" title="no title">
+</head>
+<body>
+
+	<section id="itb_reg">
+		<div class="container panel panel-default">
+				<form action="index.html" method="post">
+			<div id="rootwizard">
+					<div class="navbar">
+						<div class="navbar-inner">
+							<div class="container">
+					<ul class="steps">
+							<li><a href="#tab1" data-toggle="tab">Шаг 1</a></li>
+						<li><a href="#tab2" data-toggle="tab">Шаг 2</a></li>
+						<li><a href="#tab3" data-toggle="tab">Шаг 3</a></li>
+						<li><a href="#tab4" data-toggle="tab">Шаг 4</a></li>
+					</ul>
+					 </div>
+						</div>
+					</div>
+
+					<div class="tab-content">
+
+							<div class="tab-pane" id="tab1">
+									<h1>Тип договора</h1>
+									<p>Зависит от формы собственности</p>
+
+									<div class="row">
+								  <div class="col-lg-6">
+								    <div class="input-group">
+								      <span class="input-group-addon">
+								        <input type="radio" name="type_corp">
+								      </span>
+								      <p class="form-control">Физическое лицо</p>
+								    </div><!-- /input-group -->
+								  </div><!-- /.col-lg-6 -->
+								  <div class="col-lg-6">
+								    <div class="input-group">
+								      <span class="input-group-addon">
+								        <input type="radio" name="type_corp">
+								      </span>
+								      <p class="form-control">Юридическое лицо</p>
+								    </div><!-- /input-group -->
+								  </div><!-- /.col-lg-6 -->
+								</div><!-- /.row -->
+
+							</div>
+							<div class="tab-pane" id="tab2">
+								<div class="form-group">
+									<label class="control-label col-xs-2" for="login">Имя пользователя:</label>
+									<div class="col-xs-7">
+										<div class="input-group input-group-xs">
+										  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+										  <input type="text" class="form-control" placeholder="Введите логин">
+										</div>
+									</div>
+									<div class="col-xs-3">
+										<span class="label label-success">Свободен</span>
+									</div>
+									<br><br>
+								</div>
+
+								<div class="form-group">
+									<label class="control-label col-xs-2" for="phone">Мобильный телефон:</label>
+									<div class="col-xs-7">
+										<div class="input-group input-group-xs">
+											<span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+											<input type="text" class="form-control" placeholder="Введите мобильный телефон">
+										</div>
+									</div>
+									<div class="col-xs-3">
+										<span class="label label-success">Свободен</span>
+									</div>
+									<br><br>
+								</div>
+
+								<div class="form-group">
+									<label class="control-label col-xs-2" for="password">Пароль:</label>
+									<div class="col-xs-7">
+										<div class="input-group input-group-xs">
+											<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+											<input type="text" class="form-control" placeholder="Введите пароль">
+										</div>
+									</div>
+									<div class="col-xs-3">
+										<span class="label label-success">Свободен</span>
+									</div>
+									<br><br>
+								</div>
+
+								<div class="form-group">
+									<label class="control-label col-xs-2" for="login">Повтор пароля:</label>
+									<div class="col-xs-7">
+										<div class="input-group input-group-xs">
+											<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+											<input type="text" class="form-control" placeholder="Подтверждение пароля">
+										</div>
+									</div>
+									<div class="col-xs-3">
+										<span class="label label-success">Свободен</span>
+									</div>
+									<br><br>
+								</div>
+
+							</div>
+						<div class="tab-pane" id="tab3">
+							<div class="form-group">
+								<label class="control-label col-xs-2" for="sex">Пол:</label>
+								<div class="col-xs-7">
+									<div class="input-group input-group-xs">
+										<div class="col-xs-6">
+											<div class="input-group">
+									      <span class="input-group-addon">
+													<i class="fa fa-mars" aria-hidden="true"></i>
+									        <input type="radio" name="type_sex">
+									      </span>
+									      <p class="form-control">Мужской</p>
+									    </div><!-- /input-group -->
+										</div>
+
+										<div class="col-xs-6">
+											<div class="input-group">
+												<span class="input-group-addon">
+													<i class="fa fa-venus" aria-hidden="true"></i>
+													<input type="radio" name="type_sex">
+												</span>
+												<p class="form-control">Женксий</p>
+											</div><!-- /input-group -->
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-3">
+									<span class="label label-success">Свободен</span>
+								</div>
+								<br><br>
+							</div>
+
+							<div class="form-group">
+								<label class="control-label col-xs-2" for="username">Имя:</label>
+								<div class="col-xs-7">
+									<div class="input-group input-group-xs">
+										<span class="input-group-addon"><i class="fa fa-users" aria-hidden="true"></i></span>
+										<input type="text" class="form-control" placeholder="Введите имя">
+									</div>
+								</div>
+								<div class="col-xs-3">
+									<span class="label label-success">Свободен</span>
+								</div>
+								<br><br>
+							</div>
+
+							<div class="form-group">
+								<label class="control-label col-xs-2" for="family">Фамилия:</label>
+								<div class="col-xs-7">
+									<div class="input-group input-group-xs">
+										<span class="input-group-addon"><i class="fa fa-users" aria-hidden="true"></i></span>
+										<input type="text" class="form-control" placeholder="Введите фамилию">
+									</div>
+								</div>
+								<div class="col-xs-3">
+									<span class="label label-success">Свободен</span>
+								</div>
+								<br><br>
+							</div>
+
+							<div class="form-group">
+								<label class="control-label col-xs-2" for="login">E-mail:</label>
+								<div class="col-xs-7">
+									<div class="input-group input-group-xs">
+										<span class="input-group-addon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+										<input type="text" class="form-control" placeholder="Введите e-mail">
+									</div>
+								</div>
+								<div class="col-xs-3">
+									<span class="label label-success">Свободен</span>
+								</div>
+								<br><br>
+							</div>
+
+							<div class="form-group">
+								<label class="control-label col-xs-2" for="login">Геолокация:</label>
+								<div class="col-xs-7">
+									<div class="input-group input-group-xs">
+										<span class="input-group-addon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+										<input type="text" class="form-control" placeholder="Введите метоположение">
+									</div>
+								</div>
+								<div class="col-xs-3">
+									<span class="label label-success">Свободен</span>
+								</div>
+								<br><br>
+							</div>
+
+
+							</div>
+						<div class="tab-pane" id="tab4">
+							4
+							</div>
+						<br>
+						<ul class="pager wizard">
+							<li class="previous first" style="display:none;"><a href="#">First</a></li>
+							<li class="previous"><a href="#">Назад</a></li>
+							<li class="next last" style="display:none;"><a href="#">Last</a></li>
+								<li class="next"><a href="#">Далее</a></li>
+						</ul>
+
+					</div>
+
+					</div>
+							</form>
+		</div>
+
+	</section>
+
+<script type="text/javascript" src="js/libs.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
